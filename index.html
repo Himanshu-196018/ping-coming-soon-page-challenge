@@ -24,21 +24,31 @@
 
     <title>Ping Coming Soon</title>
   </head>
+
   <body>
     <!-- main element of the page -->
     <main>
-      <!-- header of the main -->
+      <!-- logo of the main -->
       <header>
-        <h1>Ping<span>.</span></h1>
+        <img src="images/logo.svg" alt="ping logo" />
+
+        <div class="info">
+          <h1>We are launching <span>soon!</span></h1>
+          <p>Subscribe and get notified</p>
+        </div>
       </header>
 
       <!-- taking email from user -->
       <form action="#">
-        <h2>We are launching <span>soon!</span></h2>
-        <p>Subscribe and get notified</p>
         <div class="email-section">
-          <input type="email" name="email" id="email" />
-          <button type="submit">Notify Me</button>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Your email address..."
+          />
+          <p class="error-message" id="err-msg"></p>
+          <button type="submit" id="submit-btn">Notify Me</button>
         </div>
       </form>
 
@@ -53,9 +63,20 @@
       <!-- footer of the main -->
       <footer class="footer-main">
         <div class="icons-layout">
-          <div class="icon"><i class="fa fa-facebook"></i></div>
-          <div class="icon"><i class="fa fa-twitter"></i></div>
-          <div class="icon"><i class="fa fa-instagram"></i></div>
+          <div class="icon">
+            <!-- facebook icon -->
+            <a href="#"><i class="fa fa-facebook"></i></a>
+          </div>
+
+          <div class="icon">
+            <!-- twitter icon  -->
+            <a href="#"><i class="fa fa-twitter"></i></a>
+          </div>
+
+          <div class="icon">
+            <!-- instagram icon -->
+            <a href="#"><i class="fa fa-instagram"></i></a>
+          </div>
         </div>
         <p>&copy; Copyright Ping. All rights reserved.</p>
       </footer>
