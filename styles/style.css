@@ -70,4 +70,40 @@ textarea:not([rows]) {
 /* Anything that has been anchored to should have extra scroll margin */
 :target {
   scroll-margin-block: 5ex;
+}
+
+html, body {
+  font-size: 20px;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+h1 span {
+  font-weight: 700;
+}
+
+.info p {
+  font-size: 0.6rem;
+}
+
+form input {
+  font-size: 0.5rem;
+}
+
+button {
+  font-size: 0.6rem;
+  font-weight: 600;
+}
+
+.footer-main p {
+  font-size: 0.5rem;
+}
+
+.footer-body {
+  font-size: 0.7rem;
 }/*# sourceMappingURL=style.css.map */
