@@ -81,7 +81,7 @@ html, body {
 
 h1 {
   font-size: 1.1rem;
-  font-weight: 600;
+  font-weight: 300;
 }
 h1 span {
   font-weight: 700;
@@ -100,10 +100,94 @@ button {
   font-weight: 600;
 }
 
+.footer-main i {
+  font-size: 0.8rem;
+}
 .footer-main p {
   font-size: 0.5rem;
 }
 
 .footer-body {
   font-size: 0.7rem;
+}
+
+@media screen and (width > 700px) {
+  h1 {
+    font-size: 2.41rem;
+  }
+  .info p {
+    font-size: 1rem;
+  }
+  .footer-main p {
+    font-size: 0.62rem;
+  }
+}
+main {
+  margin: 0 auto;
+  max-width: min(100% - 2.8rem, 640px);
+  min-height: 100vh;
+}
+
+header img {
+  margin: 4.15rem auto 0;
+  width: 2.7rem;
+}
+header .info {
+  margin-top: 2.1rem;
+}
+header .info p {
+  margin-top: 0.9rem;
+}
+
+form {
+  margin-top: 1.05rem;
+  height: 8rem;
+}
+
+.illustration {
+  margin-top: 0.3rem;
+}
+.illustration img {
+  width: 100%;
+}
+
+.icons-layout {
+  margin-top: 6.05rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 0.73rem;
+}
+.icons-layout .icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  border: 1px solid hsl(0, 0%, 59%);
+}
+
+.footer-main p {
+  margin-top: 1.45rem;
+}
+
+.footer-body {
+  margin-top: 10px;
+}
+
+@media screen and (width > 700px) {
+  header img {
+    margin: 4.2rem auto 0;
+    width: 4.3rem;
+  }
+  header .info {
+    margin-top: 2.6rem;
+  }
+  .illustration {
+    margin-top: -0.1rem;
+  }
+  .icons-layout {
+    margin-top: 3.5rem;
+  }
+  .footer-main p {
+    margin-top: 1.25rem;
+  }
 }/*# sourceMappingURL=style.css.map */
