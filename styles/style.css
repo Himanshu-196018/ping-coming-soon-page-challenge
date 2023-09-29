@@ -239,4 +239,55 @@ button {
     height: 2.8rem;
     width: 10rem;
   }
+}
+h1 {
+  color: hsl(0, 0%, 59%);
+}
+
+.info p, .info span {
+  color: hsl(209, 33%, 12%);
+}
+
+form input {
+  outline: none;
+  border: 1px solid hsl(223, 100%, 88%);
+}
+form input::-moz-placeholder {
+  color: hsl(0, 0%, 59%);
+}
+form input::placeholder {
+  color: hsl(0, 0%, 59%);
+}
+
+button {
+  color: White;
+  background-color: hsl(233, 87%, 62%);
+  box-shadow: 0 10px 20px 6px hsl(223, 100%, 88%);
+}
+button:hover {
+  background-color: hsl(223, 100%, 70%);
+  cursor: pointer;
+}
+
+.icons-layout .icon {
+  color: hsl(233, 87%, 62%);
+  border-color: hsl(233, 87%, 62%);
+}
+.icons-layout .icon:hover, .icons-layout .icon:focus {
+  color: white;
+  background-color: hsl(233, 87%, 62%);
+}
+
+.footer-main p {
+  color: hsl(0, 0%, 59%);
+}
+
+.footer-body {
+  color: hsl(209, 33%, 12%);
+}
+.footer-body a {
+  color: hsl(233, 87%, 62%);
+}
+.footer-body a:hover, .footer-body a:focus {
+  color: hsl(223, 100%, 88%);
 }/*# sourceMappingURL=style.css.map */
