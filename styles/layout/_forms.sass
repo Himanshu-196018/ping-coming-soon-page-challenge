@@ -1,3 +1,24 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the form section of the site/application.
 // -----------------------------------------------------------------------------
+
+form
+    input
+        margin-top: 0.4rem
+        width: 14rem
+        height: 2.05rem
+        padding-left: 1.5rem
+        border-radius: 100vh
+
+    p
+        text-align: left
+        margin: 0.2rem 0 0 1.5rem
+
+@media screen and (width > $break-point)
+    form
+        @include setDisplay(flex, space-between)
+
+        input
+            margin-top: 0.8rem
+            height: 2.8rem
+            width: 21rem

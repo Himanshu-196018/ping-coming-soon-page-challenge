@@ -92,7 +92,10 @@ h1 span {
 }
 
 form input {
-  font-size: 0.5rem;
+  font-size: 0.63rem;
+}
+form p {
+  font-size: 0.63rem;
 }
 
 button {
@@ -118,8 +121,38 @@ button {
   .info p {
     font-size: 1rem;
   }
+  form input {
+    font-size: 0.8rem;
+  }
+  button {
+    font-size: 0.8rem;
+  }
   .footer-main p {
     font-size: 0.62rem;
+  }
+}
+form input {
+  margin-top: 0.4rem;
+  width: 14rem;
+  height: 2.05rem;
+  padding-left: 1.5rem;
+  border-radius: 100vh;
+}
+form p {
+  text-align: left;
+  margin: 0.2rem 0 0 1.5rem;
+}
+
+@media screen and (width > 700px) {
+  form {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+  }
+  form input {
+    margin-top: 0.8rem;
+    height: 2.8rem;
+    width: 21rem;
   }
 }
 main {
@@ -189,5 +222,21 @@ form {
   }
   .footer-main p {
     margin-top: 1.25rem;
+  }
+}
+button {
+  margin-top: 0.5rem;
+  display: inline-block;
+  width: 14rem;
+  height: 2rem;
+  border: none;
+  border-radius: 100vh;
+}
+
+@media screen and (width > 700px) {
+  button {
+    margin-top: 0.8rem;
+    height: 2.8rem;
+    width: 10rem;
   }
 }/*# sourceMappingURL=style.css.map */
