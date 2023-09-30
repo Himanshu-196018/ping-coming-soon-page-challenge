@@ -131,6 +131,10 @@ button {
     font-size: 0.62rem;
   }
 }
+form .email-section {
+  margin: 0 auto;
+  max-width: 14rem;
+}
 form input {
   margin-top: 0.4rem;
   width: 14rem;
@@ -140,7 +144,7 @@ form input {
 }
 form p {
   text-align: left;
-  margin: 0.2rem 0 0 1.5rem;
+  margin: 0.2rem 0 0.2rem 1.5rem;
 }
 
 @media screen and (width > 700px) {
@@ -149,10 +153,16 @@ form p {
     justify-content: space-between;
     align-content: center;
   }
+  form .email-section {
+    margin: 0;
+  }
   form input {
     margin-top: 0.8rem;
     height: 2.8rem;
     width: 21rem;
+  }
+  form p {
+    margin-left: 1.5rem;
   }
 }
 main {
@@ -257,6 +267,9 @@ form input::-moz-placeholder {
 }
 form input::placeholder {
   color: hsl(0, 0%, 59%);
+}
+form p {
+  color: hsl(354, 100%, 66%);
 }
 
 button {
